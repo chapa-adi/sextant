@@ -1,119 +1,44 @@
-.App {
-  text-align: center;
-}
-.toptext{
-color: #61dafb;
-padding-bottom:20px ;
-}
-.toptext:hover{
-color:rgb(64, 64, 234) ;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: rgb(73, 73, 73);
-  min-height: 100vh;
-  display: flex ;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-.info{
-  display: inline-flex;
-  color:rgb(44, 175, 214);
-}
-label{
-  margin-right: 2%;
-  padding: 0;
- 
-}
-input{
-  margin-right: 2%; 
-  background-color:rgb(73, 73, 73) ;
-}
-input:hover{
- background-color: white;
-}
-button{
-  font-size:medium;
-  border-radius: 100%;
-  padding: 2%;
+.whole {
+  background-color: #AC7D88;
   margin: 0%;
-  border-color: rgb(44, 175, 214);
-  background-color: rgb(73, 73, 73);
-  color:rgb(44, 175, 214) ;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  text-align: center;
+  
+}
+.heading{
+margin: 4%;
+margin-left: 17%;
+margin-right: 17%;
+padding: 2%;
+background-color: #F8ECD1;
+border-radius:10% ;
+}
+.heading:hover{
+  background-color: #F5EBE0;
+}
+.top{
+  font-size: x-large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #85586F;
 
 }
-button:hover{
-  background-color: white;
- }
 
+.card1{ 
+background-color: #F8ECD1;
+margin-left: 10%;
+margin-right: 10%;
+padding: 10%;
+margin-top: 0%;
+margin-bottom: 2%;
  
- .case{
-  margin-top: 10%;
-  width:80%;
-  background-color: aliceblue;
-  align-items: center;
-  border-radius: 10%;
- }
-table {
-  border-style:none;
-  border-bottom: 2px solid #61dafb;
-  margin-left: 15%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  width: 70%;
-  border-collapse:collapse;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-th, td {
-  border: 1px solid black;
-  padding: 16px;
-  text-align: left;
-  border:none;
-  border-bottom: 1px solid #61dafb;
+.image{
+  margin: 0%;
+  margin-top: 0%;
+  padding-left: 0%;
+  padding:10%;
+  background-color: #AC7D88;
+}
 
-}
-th{
-  color: aliceblue;
-  background-color: #61dafb;
-
-}
-td{
-  font-size: medium;
-  color:black
-
-}
-.alert {
-  background-color: #f8d7da;
-  color: #721c24;
-  border: 1px solid #f5c6cb;
-  padding: 10px;
-  margin-bottom: 10px;
-}
