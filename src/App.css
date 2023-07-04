@@ -23,12 +23,19 @@ border-radius:10% ;
   color: #85586F;
 
 }
+.part1{
+  background-color: #AC7D88;
+  margin-bottom:4%;
+  padding: 1%;
+  color: azure;
+}
 
 .card1{ 
 background-color: #F8ECD1;
 margin-left: 10%;
 margin-right: 10%;
 padding: 10%;
+padding-top: 4%;
 margin-top: 0%;
 margin-bottom: 2%;
  

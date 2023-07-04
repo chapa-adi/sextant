@@ -8,18 +8,18 @@ function App() {
       <h1>SEXTANT</h1>
       </header>    
     </div>
-   
+  
     <div className='card1'>
-     
+    <div className="part1">HEADING</div>
      <div className='image'> IMAGE</div>
     </div>
     <div className='card1'>
-    
+    <div className="part1">HEADING</div>
      <div className='image'> IMAGE</div>
-      
+
     </div>
     <div className='card1'>
-    
+    <div className="part1">HEADING</div>
      <div className='image'> IMAGE</div>
      
     </div>
